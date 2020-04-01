@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="170dp" tools:srcCompat="@tools:sample/avatars[3]"
+            android:id="@+id/imageView" android:layout_margin="25dp"/>
+    <TextView
+            android:text="Название фильма"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/titleTextView" android:gravity="center"
+            android:padding="10dp" android:textSize="24sp"/>
+    <TextView
+            android:text="Год выпуска "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/yearTextView"
+            android:textSize="14sp"
+            android:layout_margin="5dp" android:paddingLeft="20dp"/>
+    <TextView
+            android:text="Жанр фильма"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/genreTextView"
+            android:layout_margin="5dp" android:textSize="14sp" android:paddingLeft="20dp"/>
+    <TextView
+            android:text="Описание"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/descTextView" android:paddingLeft="20dp"
+            android:layout_margin="5dp"/>
+</LinearLayout>
